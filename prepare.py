@@ -8,7 +8,6 @@ class DownloadProgressBar(tqdm):
             self.total = tsize
         self.update(b * bsize - self.n)
 
-
 def download_url(url, output_path, name):
     try:
         with DownloadProgressBar(unit='B', unit_scale=True,
@@ -50,17 +49,17 @@ class DlAssetsDownloader:
         return [(x, subcourse[x]) for x in inputs]
 
     def main(self):
-        logging.info('Preparring Dataset for DeepLearning Course Exercise Notebook..')
-        logging.info('Please choose subcourse')
+        logging.info(f'Menyiapkan Dataset untuk Exercise Notebook pada {self.DIR} Course..')
+        logging.info('Masukkan subcourse..')
         print('''C1 : Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
 C2 : Convolutional Neural Networks in TensorFlow
 C3 : Natural Language Processing in TensorFlow
 C4 : Sequences, Time Series and Prediction
 a : all
 
-Multiple subcourse selection Example:
+Contoh memilih lebih dari 1 subcourse:
 C1 C4''')
-        subcourse = self.prep_input(input('Subcourse Selection : ').upper().split())
+        subcourse = self.prep_input(input('Pilihan Subcourse : ').upper().split())
         for c, C in subcourse:
             logging.info(f'Downloading dataset for {C}')
             loc = os.path.join(self.DIR, C, 'Exercise', 'tmp2')
@@ -70,7 +69,26 @@ C1 C4''')
                     name = url.split('/')[-1]
                 download_url(url, os.path.join(loc, name), name)
 
+class MLAssetsDownloader:
+    DIR = 'Math for Machine Learning'
+    DL_DATASET = [
+        ('https://query.data.world/s/6z5gojkvkzpwc6remnip26vdwz6txt', 'mnist-original.mat'),
+        ('https://query.data.world/s/733ktfuuqdio6gjrmkknourchhhlzp', 'eigenfaces.npy')
+    ]
+
+    def main(self):
+        logging.info(f'Menyiapkan Dataset untuk Exercise Notebook pada {self.DIR} Course..')
+        loc = os.path.join(self.DIR, '03. PCA', 'Notebook', 'tmp2')
+        os.mkdir(loc)
+        for url, name in self.DL_DATASET:
+            if name == None:
+                name = url.split('/')[-1]
+            download_url(url, os.path.join(loc, name), name)
+
+DL_PREP = DlAssetsDownloader()
+ML_PREP = MLAssetsDownloader()
+
 if __name__ == '__main__':
     coloredlogs.install()
-    DL_prep = DlAssetsDownloader()
-    DL_prep.main()
+    DL_PREP.main()
+    ML_PREP.main()
