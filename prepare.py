@@ -92,3 +92,5 @@ if __name__ == '__main__':
     coloredlogs.install()
     DL_PREP.main()
     ML_PREP.main()
+
+    logging.info('Selesai!')
