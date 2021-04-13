@@ -16,6 +16,11 @@ def download_url(url, output_path, name):
     except:
         logging.error(f'Failed to download {name}')
 
+def prep_folder(path):
+    if not os.path.isdir(path):
+        logging.info(f'Membuat dataset directory baru : {path}')
+        os.mkdir(path)
+
 class DlAssetsDownloader:
     DIR = 'DeepLearning.AI TensorFlow Developer'
     DL_DATASET = {
@@ -63,7 +68,7 @@ C1 C4''')
         for c, C in subcourse:
             logging.info(f'Downloading dataset for {C}')
             loc = os.path.join(self.DIR, C, 'Exercise', 'tmp2')
-            os.mkdir(loc)
+            prep_folder(loc)
             for url, name in self.DL_DATASET[c]:
                 if name == None:
                     name = url.split('/')[-1]
@@ -79,7 +84,7 @@ class MLAssetsDownloader:
     def main(self):
         logging.info(f'Menyiapkan Dataset untuk Exercise Notebook pada {self.DIR} Course..')
         loc = os.path.join(self.DIR, '03. PCA', 'Notebook', 'tmp2')
-        os.mkdir(loc)
+        prep_folder(loc)
         for url, name in self.DL_DATASET:
             if name == None:
                 name = url.split('/')[-1]
@@ -90,6 +95,9 @@ ML_PREP = MLAssetsDownloader()
 
 if __name__ == '__main__':
     coloredlogs.install()
+
+    prep_folder(os.path.join('Notebook', 'Assets'))
+
     DL_PREP.main()
     ML_PREP.main()
 
