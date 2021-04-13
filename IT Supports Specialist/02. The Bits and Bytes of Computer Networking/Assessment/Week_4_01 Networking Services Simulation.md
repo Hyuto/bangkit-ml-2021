@@ -1,4 +1,4 @@
-# 1. Networking Services Simulation
+# Networking Services Simulation
 
 **Graded Assessment : Simulation**
 
@@ -11,11 +11,3 @@
 |"We’re running out of IP addresses. We’ll need to have a way to use non-routable address space!" | NAT |
 |"Our traveling sales people need to access internal resources on the road!" | VPN |
 |"People can’t remember so many IP addresses!" | DNS |
-
-# 2. Networking Services
-
-**Graded Assessment : Quiz**
-
-<p align="center">
-  <img src="./Assets/Networking-Services.png" alt="The Transport and Application Layer" />
-</p>

@@ -1,6 +1,11 @@
 # IT Supports Specialist
 
-# Sub-Course
+```
+started  : 18 February 2021
+finished : 18 March 2021
+```
+
+# Materi
 
 1. Technical Support Fundamentals
 2. The Bits and Bytes of Computer Networking

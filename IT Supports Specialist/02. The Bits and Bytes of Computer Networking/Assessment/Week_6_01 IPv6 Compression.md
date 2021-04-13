@@ -1,4 +1,4 @@
-# 1. IPv6 Compression
+# IPv6 Compression
 
 **Graded Assessment : Simulation**
 
@@ -14,11 +14,3 @@
 | ad93:a0e4:a9ce:32fc:cba8:15fe:ed90:d768 | d93:a0e4:a9ce:32fc:cba8:15fe:ed90:d768 |
 | 2b06:0000:0000:1f2b:d77f:0000:0000:89ce | 2b06::1f2b:d77f:0:0:89ce |
 | 9930:cafa:0000:0052:04cc:7b7a:0037:27e6 | 9930:cafa::52:4cc:7b7a:37:27e6 |
-
-# 2. Troubleshooting and the Future of Networking
-
-**Graded Assessment : Quiz**
-
-<p align="center">
-  <img src="./Assets/troubleshooting-and-the-future-of-networking.png" alt="Troubleshooting and the Future of Networking" />
-</p>
