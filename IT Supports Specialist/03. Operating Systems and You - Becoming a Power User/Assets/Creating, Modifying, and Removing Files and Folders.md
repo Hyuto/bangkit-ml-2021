@@ -1,13 +1,5 @@
 # Creating, Modifying, and Removing Files and Folders
 
-**Graded Assessment : Lab (Qwiklab)**
-
-### 1. Windows
-
-Using GUI
-
-### 2. Linux
-
 1. Creating directories (folders)
     ```
     mkdir dir1 dir2 dir3
@@ -20,14 +12,6 @@ Using GUI
     * -m: (mode) used to set permissions of directories during creation
     * -v: run command in verbose mode
     * Let's take a look at how to use mkdir by going through an example.
-
-    **Code**
-
-    ```bash
-    cd /home/user/Documents
-    cat /home/user/Desktop/colors
-    mkdir red blue green yellow magenta
-    ```
 2. Removing empty directories
     ```bash
     rmdir dir_name
@@ -47,20 +31,11 @@ Using GUI
     **Options**
 
     * -c: do not create file if it doesn't exist
-
 4. Copying, moving and deleting files and directories (folders)
     ```bash
     cp /home/user/source_file /home/user/duplicates/target_file
     mv /home/user/source_file /home/user/moved_files/target_file
     rm /home/user/duplicates/target_file
-    ```
-
-    **Code**
-    
-    ```bash
-    cd /home/user/Pictures
-    ls -a
-    mv .apple .banana .broccoli .milk /home/user/Documents/Hidden
     ```
 5. Move hidden files
     ```bash
