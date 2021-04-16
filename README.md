@@ -19,7 +19,9 @@ Semua aset, code dan bahan pembelajaran selama mengikuti program **Bangkit**
   3. Math for Machine Learning :heavy_check_mark:
 * March - April<br>
   1. DeepLearning.AI TensorFlow Developer :heavy_check_mark:
-
+* April - Mei<br>
+  1. Structuring Machine Learning Projects
+  2. TensorFlow: Data and Deployment
 
 ## Run Exercise Notebooks on Locals
 
