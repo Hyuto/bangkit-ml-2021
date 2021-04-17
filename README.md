@@ -13,41 +13,60 @@ Semua aset, code dan bahan pembelajaran selama mengikuti program **Bangkit**
 
 ## Materi 
 
+[ILTs Notebook](Notebook)
+
 * February - March<br>
-  1. IT Automation :heavy_check_mark:
-  2. IT Support Specialist :heavy_check_mark:
-  3. Math for Machine Learning :heavy_check_mark:
+  1. [IT Automation](IT%20Automation/README.md) :heavy_check_mark:
+  2. [IT Support Specialist](IT%20Supports%20Specialist/README.md) :heavy_check_mark:
+  3. [Math for Machine Learning](Math%20for%20Machine%20Learning/README.md) :heavy_check_mark:
 * March - April<br>
-  1. DeepLearning.AI TensorFlow Developer :heavy_check_mark:
+  1. [DeepLearning.AI TensorFlow Developer](DeepLearning.AI%20TensorFlow%20Developer/README.md) :heavy_check_mark:
 * April - Mei<br>
   1. Structuring Machine Learning Projects
   2. TensorFlow: Data and Deployment
 
-## Run Exercise Notebooks on Locals
+## Run on Local?
 
-1. Install libraries<br>
-   **Windows via PIP**
+### Install libraries
 
-   ```
-   py -m pip install -r requirements.txt
-   ```
+Install prerequest library terlebih dahulu
 
-   **Linux via PIP**
+**Windows via PIP**
 
-   ```
-   pip install -r requirements.txt
-   ```
-2. Run `prepare.py`<br>
-   run `prepare.py` dan ikuti instruksinya
+```
+py -m pip install -r requirements.txt
+```
 
-   **Windows**
+**Linux via PIP**
 
-   ```
-   py prepare.py
-   ```
+```
+pip install -r requirements.txt
+```
+### Note / Catatan
 
-   **Linux**
+Gunakan grip untuk view `markdown` file
 
-   ```
-   python3 prepare.py
-   ```
+```
+cd bangkit-ml-2021
+grip
+```
+
+### Exercise Notebook
+
+Run `prepare.py` untuk menyiapkan data dan directory agar tidak terjadi error selama runtime.
+
+:warning: **Note** : Data berukuran cukup besar sehingga disarankan untuk menggunakan wifi ketika `prepare.py` di jalankan.
+
+Run `prepare.py` dan ikuti instruksinya
+
+**Windows**
+
+```
+py prepare.py
+```
+
+**Linux**
+
+```
+python3 prepare.py
+```

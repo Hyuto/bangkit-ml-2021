@@ -1,3 +1,4 @@
 coloredlogs
+grip
 numpy
 tensorflow>=2.1
