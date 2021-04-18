@@ -22,14 +22,14 @@ Semua aset, code dan bahan pembelajaran selama mengikuti program **Bangkit**
 * March - April<br>
   1. [DeepLearning.AI TensorFlow Developer](DeepLearning.AI%20TensorFlow%20Developer/README.md) :heavy_check_mark:
 * April - Mei<br>
-  1. Structuring Machine Learning Projects
+  1. [Structuring Machine Learning Projects](Structuring%20Machine%20Learning%20Projects/README.md)
   2. TensorFlow: Data and Deployment
 
 ## Run on Local?
 
 ### Install libraries
 
-Install prerequest library terlebih dahulu
+Install prerequisite library terlebih dahulu
 
 **Windows via PIP**
 

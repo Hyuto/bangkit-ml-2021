@@ -1,4 +1,4 @@
 coloredlogs
-grip
-numpy
-tensorflow>=2.1
+grip>=4.5.0
+numpy>=1.18
+tensorflow>=2.2
