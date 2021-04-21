@@ -2,7 +2,7 @@
 
 ```
 started  : 14 April 2021
-finished : -
+finished : 21 April 2021
 ```
 
 ## Materi
@@ -22,7 +22,7 @@ finished : -
    4. Human level performance
    5. Avoidable bias
    
-   **Assessment** : [Bird Recognition in the City of Peacetopia (Case Study)](Assets/Week 1_Quizz.png)
+   **Assessment** : [Bird Recognition in the City of Peacetopia(Case Study)](Assessment/Week_1_Bird%20Recognition%20in%20the%20City%20of%20Peacetopia.md)
 * Week 2<br>
   1. Error Analysis
   2. Mismatched Training and Dev/Test Set
@@ -31,5 +31,9 @@ finished : -
   5. Machine Learning Flight Simulator
    
    **Note**
+   
+   1. Cleaning incorrectly labeled data
+   2. Bias and Variance with Mismatched data
+   3. Transfer Learning & Multi-task Learning
 
-   **Assessment** : [Autonomous Driving (Case Study)](Assets/Week%202_Quizz.png)
+   **Assessment** : [Autonomous Driving (Case Study)](Assessment/Week_2_Autonomous%20Driving.md)
