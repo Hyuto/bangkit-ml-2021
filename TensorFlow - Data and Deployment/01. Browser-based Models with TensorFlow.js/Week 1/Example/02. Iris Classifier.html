@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+    <link rel="stylesheet" href="../../Style/base.css">
+    <title>Iris Classifier</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Training on Iris Dataset</h1>
+        <strong class="text">Model</strong>
+        <div class="model">
+            <code id="code">
+                const model = tf.sequential();<br>
+                model.add(tf.layers.dense({inputShape: [numOfFeatures], activation: "sigmoid", units: 5}));<br>
+                model.add(tf.layers.dense({activation: "softmax", units: 3}));
+            </code>
+        </div>
+        <div id="log"></div>
+    </div>
+    <script src="Scripts/02 iris-classifier.js"></script>
+</body>
+</html>
