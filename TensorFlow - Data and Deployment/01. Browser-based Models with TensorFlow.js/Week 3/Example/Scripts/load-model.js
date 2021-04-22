@@ -3,7 +3,11 @@ const load_model = async () => {
     const model = await tf.loadLayersModel(MODEL_URL);
     return model;
 }
-const model = load_model();
-model.then((m) => {
-    tfvis.show.modelSummary({name: 'Model Architecture'}, m);
+
+window.addEventListener('load', () => {
+    const model = load_model();
+    
+    model.then((m) => {
+        tfvis.show.modelSummary({name: 'Model Architecture'}, m);
+    })
 })
