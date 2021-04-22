@@ -1,4 +1,4 @@
-const get_data = async (split = 0.7, batch = 10, seed = 2021) => {
+const get_data = async (batch = 10, seed = 2021) => {
     const csvUrl = 'https://raw.githubusercontent.com/lmoroney/dlaicourse/master/TensorFlow%20Deployment/' + 
                     'Course%201%20-%20TensorFlow-JS/Week%201/Examples/iris.csv';
     const trainingData = tf.data.csv(csvUrl, {
@@ -20,14 +20,6 @@ const get_data = async (split = 0.7, batch = 10, seed = 2021) => {
         })
         .shuffle(seed)
         .batch(batch);
-
-    /* 
-    //split dataset
-    let i = 0;
-    trainDataset = csvDataset.filter(x => i++%5 !== 0)
-    i = 0
-    testDataset = csvDataset.filter(x => i++%5 === 0)
-    */
     
     return [numOfFeatures, convertedData];
 }

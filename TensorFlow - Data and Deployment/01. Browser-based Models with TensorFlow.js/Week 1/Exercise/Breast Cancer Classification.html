@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+    <link rel="stylesheet" href="../../Style/base.css">
+    <title>Breast Cancer Classification</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Breast Cancer Classification</h1>
+        <strong class="text">Model</strong>
+        <div class="model">
+            <code id="code">
+                const model = tf.sequential();<br>
+                model.add(tf.layers.dense({inputShape: [numOfFeatures], activation: "relu", units: 32}))<br>
+                model.add(tf.layers.dense({activation: "relu", units: 16}))<br>
+                model.add(tf.layers.dense({activation: "sigmoid", units: 1}))
+            </code>
+        </div>
+        <div id="log"></div>
+    </div>
+    <script src="Scripts/BCC.js"></script>
+</body>
+</html>
