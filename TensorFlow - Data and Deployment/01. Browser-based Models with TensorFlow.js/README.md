@@ -58,3 +58,15 @@
    1. [Quizz : Week 3 Quizz](Assessment/Week_3_Quizz.md)
    2. [Converting a Python Model to JavaScript](Week%203/Exercise/Converting%20a%20Keras%20Model%20to%20JSON%20Format.ipynb)
 * Week 4<br>
+  1. Retraining the MobileNet Model
+  2. Capturing the Data
+  3. Performing Inference From the Webcam Feed
+   
+   **Example**
+
+   1. [Rock Paper Scissors](Week%204/Example/retrain.html)
+   
+   **Assessment**
+
+   1. [Quizz : Week 4 Quiz](Assessment/Week_4_Quizz.md)
+   2. [Rock, Paper, Scissors, Lizard, Spock](Week%204/Exercise/rpsls.html)
