@@ -13,7 +13,7 @@ Semua aset, code dan bahan pembelajaran selama mengikuti program **Bangkit**
 
 ## Materi 
 
-[ILTs Notebook](Notebook)
+[ILTs Notebook](Notebook/README.md)
 
 * February - March<br>
   1. [IT Automation](IT%20Automation/README.md) :heavy_check_mark:
@@ -33,22 +33,30 @@ Install prerequisite library terlebih dahulu
 
 **Windows via PIP**
 
-```
+```cmd
 py -m pip install -r requirements.txt
 ```
 
 **Linux via PIP**
 
-```
+```bash
 pip install -r requirements.txt
 ```
 ### Note / Catatan
 
-Gunakan grip untuk view `markdown` file
+Gunakan `markserv` untuk view `markdown` file
 
-```
+**Install `markserv`**
+
+```bash
 cd bangkit-ml-2021
-grip
+npm install -g markserv
+```
+
+**Serve**
+
+```bash
+npm run serve
 ```
 
 ### Exercise Notebook
@@ -61,12 +69,12 @@ Run `prepare.py` dan ikuti instruksinya
 
 **Windows**
 
-```
+```cmd
 py prepare.py
 ```
 
 **Linux**
 
-```
+```bash
 python3 prepare.py
 ```

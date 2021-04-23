@@ -1,0 +1,24 @@
+{
+  "name": "bangkit-ml-2021",
+  "version": "1.0.0",
+  "description": "Asset selama mengikuti program bangkit - machine learning path 2021",
+  "main": "index.js",
+  "scripts": {
+    "serve": "markserv README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hyuto/bangkit-ml-2021.git"
+  },
+  "keywords": [
+    "Machine Learning",
+    "ML",
+    "Bangkit"
+  ],
+  "author": "Wahyu Setianto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hyuto/bangkit-ml-2021/issues"
+  },
+  "homepage": "https://github.com/Hyuto/bangkit-ml-2021#readme"
+}
