@@ -1,5 +1,6 @@
 tmp2/
 __pycache__/
 Notebook/Assets/
+dataset/
 node_modules
 package-lock.json
