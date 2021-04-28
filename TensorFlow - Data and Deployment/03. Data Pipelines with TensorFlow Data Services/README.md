@@ -55,4 +55,24 @@
 
    **Assessment** : [Classify Structured Data](Assessment/Week%203_Classify%20Structured%20Data.ipynb)
 * Week 4<br>
+  1. Tuning and Performance Improvements in your Pipeline
+  2. Methodologies to Improve Performance
+  3. Best Practices
+   
+   **Note**
+
+   1. ETL
+   2. Caching
+   3. Parallelism APIs
+   4. Autotuning
+   5. Parallelizing Data Extraction
+   
+   **Quiz** : [Week 4 Quiz](Quizz/Week%204_Quizz.md)
+
+   **Assessment** : [Parallelization with TFDS](Assessment/Week%204_Parallelization%20with%20TFDS.ipynb)
 * Week 5 [OPTIONAL]<br>
+  1. Publishing your Datasets
+   
+   **Quiz** : [Publishing your Dataset](Quizz/Week%205_Quizz.md)
+
+   **Example** : [Adding a Dataset of Your Own to TFDS_Optional](Examples/Week_5_01.%20Adding%20a%20Dataset%20of%20Your%20Own%20to%20TFDS_Optional.ipynb)
