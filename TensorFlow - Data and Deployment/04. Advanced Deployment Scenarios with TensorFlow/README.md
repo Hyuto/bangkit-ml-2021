@@ -51,10 +51,6 @@
    
    1. [tensorboard.dev](tensorboard.dev)
    
-   **Example**
-
-   1. [Displaying image data in TensorBoard](Examples/Week_3_01.%20Displaying%20image%20data%20in%20TensorBoard.ipynb)
-   
    **Exercise**
 
    1. Quiz : [Week 3 Quiz](Quizz/Week%203_Quizz.md)
