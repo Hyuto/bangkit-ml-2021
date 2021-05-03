@@ -2,7 +2,7 @@
 
 ```
 started  : 21 April 2021
-finished : -
+finished : 2 Mei 2021
 ```
 
 ## Materi

@@ -23,7 +23,7 @@ Semua aset, code dan bahan pembelajaran selama mengikuti program **Bangkit**
   1. [DeepLearning.AI TensorFlow Developer](DeepLearning.AI%20TensorFlow%20Developer/README.md) :heavy_check_mark:
 * April - Mei<br>
   1. [Structuring Machine Learning Projects](Structuring%20Machine%20Learning%20Projects/README.md) :heavy_check_mark:
-  2. [TensorFlow: Data and Deployment](TensorFlow%20-%20Data%20and%20Deployment/README.md)
+  2. [TensorFlow: Data and Deployment](TensorFlow%20-%20Data%20and%20Deployment/README.md) :heavy_check_mark:
 
 ## Run on Local?
 
